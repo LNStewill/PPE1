@@ -4,9 +4,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Nous Contacter</title>
+        <link rel="stylesheet" href="../CSS/contact.css"/>
         <link rel="stylesheet" href="../CSS/Inscription_Connection_Bouton_Header.css">
         <link rel="stylesheet" href="../CSS/index.css">
-        <link rel="stylesheet" href="../CSS/contact.css"/>
 	
 	<script src="projet.js"></script>
 	
@@ -394,8 +394,10 @@
   	
   </div>
   <div class="bottom-right">
-  	<h2 style="float: right;">Panier</h2><br><br>
-  	<a href="../index.html"  onclick="basket()"><img title="CLIQUEZ MOI POUR ACCEDER AU PANIER" alt="Logo" src="../Images/im/basket.png" style="float: right; width: 10%;"></a>
+  	<h2>Panier</h2>
+  	<a href="../index.html"  onclick="basket()">
+            <img title="CLIQUEZ MOI POUR ACCEDER AU PANIER" alt="Logo_Panier" src="../Images/im/basket.png">
+        </a>
 
   </div>
   <div class="centered">
@@ -416,58 +418,49 @@
             <p>Passez sélectionner votre destination ou laissez-nous un message :</p>
         </center>
 
-	<section class="container5" style="width: 85%; margin-left: 100px;">
-		
-            <!--<div class="row">-->
-                <article class="column">
-
-                    <!--<img src="im/Diderot.png" style="width:100%">-->
-
-                    <div class="container7">
-                        <img src="../Images/im/Diderot.png" alt="Avatar" class="image7" style="width:100%">
-                        <div class="middle7">
-                            <div class="text7">
-
-                                <h2 style="color:blue;">Informations</h2>     
-                                <h2 style="color:brown;">Notre site </h2>
-                                <a href="../index.html" style="text-decoration: none;">DestinationCampingDesert.com</a><br><br>
-                                <h2 style="color:brown;">Notre email</h2>
-                                <a href="#" style="text-decoration: none;">DestinationCampingDesert.com</a><br><br>
-                                <p style="color:brown; font-size: 25px;">06 07 05 08 06</p> <br>
-                                <h2 style="color:brown;">Nous localiser</h2>
-                                <p style="color:brown;">13 RUE DE LA FONTAINE AU ROI</p>
-                                <p style="color:brown;">Paris, 75011</p><br>
-
-                            </div>
+	<section class="container5">
+            <article class="column">
+                <div class="container7">
+                    <img src="../Images/im/Diderot.png" alt="Avatar" class="image7" style="width:100%">
+                    <div class="middle7">
+                        <div class="text7">
+                            <h2 style="color:blue;">Informations</h2>     
+                            <h2 style="color:brown;">Notre site </h2>
+                            <a href="../index.html" style="text-decoration: none;">DestinationCampingDesert.com</a><br><br>
+                            <h2 style="color:brown;">Notre email</h2>
+                            <a href="#" style="text-decoration: none;">DestinationCampingDesert.com</a><br><br>
+                            <p style="color:brown; font-size: 25px;">06 07 05 08 06</p> <br>
+                            <h2 style="color:brown;">Nous localiser</h2>
+                            <p style="color:brown;">13 RUE DE LA FONTAINE AU ROI</p>
+                            <p style="color:brown;">Paris, 75011</p><br>
                         </div>
                     </div>
-					<br>
-			      
-                </article>
+                </div>
+		<br>
+            </article>
 
-			    <fieldset class="champ">
-			    	<legend>Saisissez</legend>
-                                <br>
-			      <form action="/action_page.php">
-			        <label for="fname">Prénom</label>
-			        <input type="text" id="fname" name="firstname" placeholder="Votre Nom..">
-			        <label for="lname">Nom</label>
-			        <input type="text" id="lname" name="lastname" placeholder="Votre Prénom..">
-			        <label for="country">Pays</label>
-			        <select id="Pays" name="pays">
-							<option value="France" selected="selected">France </option>
-							</select>
-			        <label for="subject">Sujet</label>
-			        <textarea id="subject" name="subject" placeholder="Saisissez votre message.." style="height:170px"></textarea>
-			        <input type="submit" value="Envoyer">
-			      </form>
-			    </fieldset>
-		  <!--</div>-->	
+            <fieldset class="champ">
+                <legend>Saisissez</legend>
+                <br>
+                <form action="/action_page.php">
+                    <label for="fname">Prénom</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Votre Nom..">
+                    <label for="lname">Nom</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Votre Prénom..">
+                    <label for="country">Pays</label>
+                    <select id="Pays" name="pays">
+                                            <option value="France" selected="selected">France </option>
+                                            </select>
+                    <label for="subject">Sujet</label>
+                    <textarea id="subject" name="subject" placeholder="Saisissez votre message.." style="height:170px"></textarea>
+                    <input type="submit" value="Envoyer">
+                </form>
+            </fieldset>
 	</section>
 
 	<br><br>
 
-	<section style="width: 85%; margin-left: 100px;">
+	<section>
 		<article>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d328.0567682686521!2d2.369451116884049!3d48.86861841172165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66de25e8cc48f%3A0x40739872ee4a15e8!2sCours%20Diderot%20Paris%20(anciennement%20Diderot%20Campus)%20-%20BTS%20Bachelor%20Master!5e0!3m2!1sfr!2sfr!4v1674779544781!5m2!1sfr!2sfr" /*width="600" height="450"*/ style="border:0; width:100%; /*height:270px*/" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					<br><br>
@@ -480,37 +473,37 @@
 
 	<footer>
 
-  <center>
-    <address>
-      &copy;2023
-      Written by <a href="../Pages/BTS_SIO_GR.html" style="text-decoration: none; color: seagreen;"> <b style="color: deepskyblue;">BTS SIO 22_23 GR</b> </a>.<br> 
-      Visit us at:
-      <a href="https://www.coursdiderot.fr/" style="text-decoration: none;"> <b style="color: lightskyblue;">Diderot-campus.fr</b></a><br>
-      Paris 75011, Place de la République<br>
-      FRANCE
-    </address>
-  </center>
-  <br><br>
-  
-    <button class="open-button" onclick="openForm()">Connectez Vous</button>
-    
-<div class="form-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
+            <center>
+                <address>
+                    &copy;2023
+                    Written by <a href="../Pages/BTS_SIO_GR.html" style="text-decoration: none; color: seagreen;"> <b style="color: deepskyblue;">BTS SIO 22_23 GR</b> </a>.<br> 
+                    Visit us at:
+                    <a href="https://www.coursdiderot.fr/" style="text-decoration: none;"> <b style="color: lightskyblue;">Diderot-campus.fr</b></a><br>
+                    Paris 75011, Place de la République<br>
+                    FRANCE
+                </address>
+            </center>
+            <br><br>
 
-    <h1>Connection</h1>
+            <button class="open-button" onclick="openForm()">Connectez Vous</button>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Saisissez votre Email" name="email" required>
+            <div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Saisissez Votre Password" name="psw" required>
+                    <h1>Connection</h1>
 
-    <button type="submit" class="btn">Se Connecter</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>
-  </form>
-</div>  
-</footer>
-<script src="../JavaScript/projet.js"></script>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Saisissez votre Email" name="email" required>
 
-</body>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Saisissez Votre Password" name="psw" required>
+
+                    <button type="submit" class="btn">Se Connecter</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>
+                </form>
+            </div>  
+        </footer>
+        <script src="../JavaScript/projet.js"></script>
+
+    </body>
 </html>
