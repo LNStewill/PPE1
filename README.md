@@ -1,5 +1,5 @@
 ﻿# PPE1
-Projet personnel encadré - BTS Services Informatiques aux Organisations 1ère année
+Projet Professionnel encadré - BTS Services Informatiques aux Organisations 1ère année
 
 ## LE PROJET 
 Étude du système d'information, mise en ligne d'une page web et mise en place de la base de données.
